@@ -10,6 +10,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -87,5 +89,14 @@ public class MainActivity extends AppCompatActivity {
             imgNodata.setVisibility(View.GONE);
             txtNodata.setVisibility(View.GONE);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
+
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.menu,menu);
+
+        return super.onCreateOptionsMenu(menu);
     }
 }
