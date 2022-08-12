@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambahActivity"
+    android:padding="25dp"
+    >
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/btnBack"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:backgroundTint="@color/lighterShadeBlue"-->
+    <!--        app:srcCompat="@drawable/ic_back">-->
+
+    <!--    </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <!--            android:layout_below="@id/btnBack">-->
+
+        <EditText
+            android:id="@+id/editNama2"
+            style="@style/placeHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/rounded_box"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="15dp"
+            android:hint="@string/namaPL"
+            android:padding="10dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editNoTelp2"
+            style="@style/placeHolder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/editNama2"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/rounded_box"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="15dp"
+            android:hint="@string/notelpPL"
+            android:padding="10dp"
+            android:inputType="number">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editEmail2"
+            style="@style/placeHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editNoTelp2"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/rounded_box"
+            android:hint="@string/emailPL"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="15dp">
+
+        </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpdate"
+            style="@style/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editEmail2"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_box"
+            android:text="@string/update"
+            android:textColor="@color/white">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnHapus"
+            style="@style/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnUpdate"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_box"
+            android:text="@string/hapus"
+            android:textColor="@color/redDelete">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpTacts</string>
+    <string name="namaPL">Nama</string>
+    <string name="notelpPL">Nomor Telepon</string>
+    <string name="emailPL">Email</string>
+    <string name="copyright">Diaz Maulidzan Nugraha</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="hapus">Hapus</string>
+    <string name="nodata">Tidak Ada Data</string>
+</resources>

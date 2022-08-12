@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/lighterGray"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgNodata"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_nodata"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:alpha="0.2"
+        android:visibility="gone">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtNodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nodata"
+        android:layout_below="@+id/imgNodata"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:alpha="0.2"
+        android:visibility="gone">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/lighterShadeBlue"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_add">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+</RelativeLayout>
