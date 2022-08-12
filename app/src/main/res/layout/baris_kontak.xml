@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_box_filled"
-        android:padding="15sp">
+        android:padding="15sp"
+        android:backgroundTint="@color/white">
 
 <!--        <TextView-->
 <!--            android:id="@+id/txtId"-->
@@ -69,6 +70,18 @@
             android:textColor="@color/black">
 
         </TextView>
+
+        <ImageView
+            android:id="@+id/moveEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/ic_arrow_right">
+
+        </ImageView>
 
     </RelativeLayout>
 

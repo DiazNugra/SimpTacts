@@ -8,6 +8,13 @@
     android:background="@color/lighterGray"
     android:padding="10dp">
 
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/searchBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp">-->
+
+<!--    </androidx.appcompat.widget.SearchView>-->
+
     <ImageView
         android:id="@+id/imgNodata"
         android:layout_width="150dp"
@@ -37,7 +44,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnTambah"

@@ -78,9 +78,9 @@
                 android:layout_below="@id/editEmail"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/rounded_box"
+                android:clickable="true"
                 android:text="@string/submit"
-                android:textColor="@color/white"
-                android:clickable="true">
+                android:textColor="@color/white">
 
             </androidx.appcompat.widget.AppCompatButton>
 
