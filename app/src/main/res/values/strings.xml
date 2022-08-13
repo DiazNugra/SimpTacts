@@ -4,8 +4,8 @@
     <string name="notelpPL">Nomor Telepon</string>
     <string name="emailPL">Email</string>
     <string name="copyright">Diaz Maulidzan Nugraha</string>
-    <string name="submit">Submit</string>
+    <string name="Simpan">Simpan</string>
     <string name="update">Update</string>
     <string name="hapus">Hapus</string>
-    <string name="nodata">Tidak Ada Data</string>
+    <string name="nodata">Tidak Ada Kontak Yang Tersimpan</string>
 </resources>

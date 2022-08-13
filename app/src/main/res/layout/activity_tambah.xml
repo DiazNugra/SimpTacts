@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tambahActivity"
-    android:padding="25dp">
+    android:padding="25dp"
+    android:background="@drawable/main2">
 
 
 <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
@@ -20,7 +21,9 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_box_filled"
+            android:padding="10dp">
 <!--            android:layout_below="@id/btnBack">-->
 
             <EditText
@@ -70,21 +73,25 @@
 
             </EditText>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnSubmit"
-                style="@style/buttonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/editEmail"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/rounded_box"
-                android:clickable="true"
-                android:text="@string/submit"
-                android:textColor="@color/white">
 
-            </androidx.appcompat.widget.AppCompatButton>
 
         </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        style="@style/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_box"
+        android:clickable="true"
+        android:text="@string/Simpan"
+        android:textColor="@color/white"
+        android:textAllCaps="false">
+
+    </androidx.appcompat.widget.AppCompatButton>
 
 
 </RelativeLayout>
