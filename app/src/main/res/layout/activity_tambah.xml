@@ -24,7 +24,6 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/rounded_box_filled"
             android:padding="10dp">
-<!--            android:layout_below="@id/btnBack">-->
 
             <EditText
                 android:id="@+id/editNama"
